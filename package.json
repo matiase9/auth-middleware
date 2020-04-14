@@ -1,0 +1,35 @@
+{
+  "name": "stormtech-authmiddleware",
+  "version": "1.0.1",
+  "description": "N/A",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "nps",
+    "build": "npm start build",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Matias Ramirez <matiase9@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-then": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^10.9.4",
+    "chalk": "^2.4.2",
+    "copyfiles": "^2.1.1",
+    "cross-env": "^6.0.3",
+    "figlet": "^1.2.4",
+    "jest": "^24.9.0",
+    "nps": "^5.9.8",
+    "nps-utils": "^1.7.0",
+    "release-it": "^12.4.3",
+    "taggit": "^2.0.3",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.0.3"
+  }
+}
